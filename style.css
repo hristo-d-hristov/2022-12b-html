@@ -34,3 +34,17 @@ iframe {
     width: 100px;
     height: auto;
 }
+
+nav {
+  position: absolute;
+  background-color: grey;
+}
+
+.logo {
+    height: 10px;
+    width: auto;
+}
+
+h1 {
+    padding-top: 70px;
+}
