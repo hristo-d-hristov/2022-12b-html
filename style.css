@@ -1,11 +1,15 @@
 /* фон за цялата страница */
 body {
+    /*
     background-color: lightgreen;
+    */
 }
 
 h1 {
+    /*
     background-color: green;
     color: #1ec9ac;
+    */
 }
 
 h2 {
