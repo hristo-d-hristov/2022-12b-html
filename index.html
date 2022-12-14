@@ -42,6 +42,10 @@
 
 		<div class="container">
 			<h1>Трактори и багери</h1>
+			<button onclick="document.getElementById('trba-carousel').style.display = 'none'">Скрий каросела</button>
+			<button onclick="document.getElementById('paragraf').innerHTML = 'Променен<br>текст'">Смени текста на параграф</button>
+			<button onclick="document.getElementById('kartinka-na-bager').src = 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Old_excavator.jpg'">Подмени картинката</button>
+			<p id="paragraf">Първоначален текст</p>
 			<div id="trba-carousel" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -65,7 +69,7 @@
 				A simple primary alert—check it out!
 			</div>
 			<div class="card" style="width: 18rem;">
-				<img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Blmexcavsm.jpg" class="card-img-top">
+				<img id="kartinka-na-bager" src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Blmexcavsm.jpg" class="card-img-top">
 				<div class="card-body">
 					<h5 class="card-title">Багер</h5>
 					<p class="card-text">Текст към багера.</p>
