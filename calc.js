@@ -1,5 +1,10 @@
-document.getElementById('buttonAdd').onclick = function() {
-	let a = document.getElementById('inputA').valueAsNumber;
-	let b = document.getElementById('inputB').valueAsNumber;
-	document.getElementById('answer').innerHTML = a + b;
+let c = document.getElementById("myCanvas");
+let ctx = c.getContext("2d");
+ctx.moveTo(0, 0);
+ctx.lineTo(200, 100);
+ctx.stroke();
+
+
+ctx.onkeydown = function() {
+	console.log("pressed")
 }
