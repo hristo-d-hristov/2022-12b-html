@@ -30,6 +30,18 @@ canvas.onclick = function(e) {
     context.drawImage(img, sqx * herosqx, sqy * herosqy , sqx, sqy);
 }
 
+document.onkeydown = function(e) {
+	switch (e.key) {
+		case "w": herosqy -= 1; break;
+		case "a": herosqx -= 1; break;
+		case "d": herosqx += 1; break;
+		case "s": herosqy += 1; break;
+	}
+	drawEmptyGrid();
+    context.fillStyle = "black";
+    context.drawImage(img, sqx * herosqx, sqy * herosqy , sqx, sqy);
+}
+
 /*
 context.fillStyle = "green";
 context.strokeStyle = "orange";
