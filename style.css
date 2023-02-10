@@ -1,15 +1,11 @@
 /* фон за цялата страница */
 body {
-    /*
     background-color: lightgreen;
-    */
 }
 
 h1 {
-    /*
     background-color: green;
     color: #1ec9ac;
-    */
 }
 
 h2 {
@@ -24,23 +20,31 @@ th {
     background-color: blue;
 }
 
+img, video {
+    width: 200px;
+    height: auto;
+}
+
+iframe {
+    width: 300px;
+    height: 300px;
+}
+
+.traktor {
+    width: 100px;
+    height: auto;
+}
+
 nav {
   position: absolute;
   background-color: grey;
 }
 
-.logo, .navbar-brand > img {
-    height: 30px;
+.logo {
+    height: 10px;
     width: auto;
 }
 
 h1 {
     padding-top: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p, li {
-    font-family: Times New Roman;
-    font-weight: normal;
-    font-style: normal;
 }
