@@ -1,43 +1,6 @@
-/* фон за цялата страница */
-body {
-    background-color: lightgreen;
-}
-
-h1 {
-    background-color: green;
-    color: #1ec9ac;
-}
-
-h2 {
-    margin-left: 20px;
-}
-
-h3 {
-    margin-left: 40px;
-}
-
-th {
-    background-color: blue;
-}
-
 img, video {
     width: 200px;
     height: auto;
-}
-
-iframe {
-    width: 300px;
-    height: 300px;
-}
-
-.traktor {
-    width: 100px;
-    height: auto;
-}
-
-nav {
-  position: absolute;
-  background-color: grey;
 }
 
 .logo {
@@ -45,6 +8,7 @@ nav {
     width: auto;
 }
 
-h1 {
-    padding-top: 70px;
+body {
+	padding-left: 20px;
+    padding-top: 50px;
 }
