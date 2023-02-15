@@ -12,22 +12,8 @@ title: Трактори
 	<p>Информацията е взета от <a href="https://bg.wikipedia.org/wiki/%D0%A2%D1%80%D0%B0%D0%BA%D1%82%D0%BE%D1%80">страницата "Трактори" в Уикипедия</a></p>
 </div>
 <div class="half">
-	<div>
-		<article class="card">
-			<img src="img/tractor1.jpg">
-			<footer>
-				<h2>Трактор</h3>
-			</footer>
-		</article>
-	</div>
-	<div>
-		<article class="card">
-			<img src="img/tractor2.jpg">
-			<footer>
-				<h2>Трактор2</h3>
-			</footer>
-		</article>
-	</div>
+	{% include image.html imagename="tractor1.jpg" imagefooter="Първи трактор" %}
+	{% include image.html imagename="tractor2.jpg" imagefooter="Втори трактор" %}
 </div>
 
 <table>
