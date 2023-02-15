@@ -19,8 +19,8 @@
 			<label for="mymenu" class="burger pseudo button">меню</label>
 
 			<div class="menu">
-				<a href="traktori.html" class="pseudo button icon-picture">Трактори</a>
-				<a href="bageri.html" class="button icon-puzzle">Багери</a>
+				<a href="traktori.html" class="{% if page.name != 'traktori.html' %} pseudo {% endif %} button icon-picture">Трактори</a>
+				<a href="bageri.html" class="{% if page.name != 'bageri.html' %} pseudo {% endif %} button icon-puzzle">Багери</a>
 			</div>
 		</nav>
         <h1>{{ page.title }}</h1>
